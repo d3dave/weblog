@@ -1,0 +1,54 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px;
+    padding: 0.2em 0.8em;
+}
+
+#records {
+    margin: auto;
+    border: solid 1px;
+    width: 1600px;
+}
+
+.record-time {
+    width: 180px;
+}
+
+.record-name {
+    width: 180px;
+}
+
+.record-level {
+    width: 100px;
+}
+
+.record-thread {
+    width: 180px;
+}
+
+.info {
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.error {
+    background-color: orangered;
+}
+
+.critical {
+    background-color: red;
+}
+
+.critical .record-message {
+    font-weight: bold;
+}

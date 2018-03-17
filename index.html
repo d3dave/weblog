@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Log viewer</title>
+    <link rel="stylesheet" href="x.css" />
+</head>
+<body>
+<h1>Log viewer</h1>
+<table id="records">
+    <thead>
+    <tr>
+        <th class="record-time">time</th>
+        <th class="record-name">name</th>
+        <th class="record-level">level</th>
+        <th class="record-message">message</th>
+        <th class="record-thread">thread name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr id="record-template" style="display: none">
+        <td class="record-time"></td>
+        <td class="record-name"></td>
+        <td class="record-level"></td>
+        <td class="record-message"></td>
+        <td class="record-thread"></td>
+    </tr>
+    </tbody>
+</table>
+<script type="application/javascript" src="x.js"></script>
+</body>
+</html>
